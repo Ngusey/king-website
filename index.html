@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/f7f4fa47db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/my-logo.jpg" alt="" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Frontend Web Developer</p>
+        <h1>Hi, I'm <span>Ngusey</span><br>from Ethiopia.</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-----------about---------->
+
+  <div id="about">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="about-col-1">
+          <img src="images/about image.jpg" alt="">
+        </div>
+
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I a'm an experienced JavaScript engineer and UX designer with impressive front-end coding skills.I can design and develop awsome websites and mobile apps for your business venture and deliver on time with high quality. </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">SkilLs</p>
+            <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br> Design web/app ineterfaces</li>
+              <li><span>Web Development</span><br> Web app development</li>
+              <li><span>App Development</span><br>Building android/ios apps</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="exprience">
+            <ul>
+              <li><span>2023-current</span><br> UI/UX Design Training at ET Institunt</li>
+              <li><span>2022-2023</span><br>Team Leader a StarAPp LCC</li>
+              <li><span>2020-2022</span><br>UI/UX Design Excutive Digital at ltd.</li>
+              <li><span>2019-2020</span><br>Enternship at ekart eCommerce</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023</span><br> Nanodegree in Fundamental of Programing from Udacity</li>
+              <li><span>2022</span><br>MSc in Process Engineering from AASTU</li>
+              <li><span>2021</span><br> BSc in Chemical Engineering from AASTU</li>
+             
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-----------about---------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+
+      <div class="services-list">
+
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>I can design visual, functional, and user experience (UX) elements of a website with good stractural layouts,typography,color schemes, and graphics that can attract customers.</p>
+          <a href="#">Leran More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>I can design and create products and services that are usable, enjoyable, and accessible to users with fantastic programming and coding skills, and through market-demanding research.</p>
+          <a href="#">Leran More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>App Design</h2>
+          <p>I can design and develop responsive mobile apps through UI and UX for your startup companies and ecommerce marketing that cab be used in android and ios platforms.</p>
+          <a href="#">Leran More</a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+
+        <div class="work">
+          <img src="images/image-1.jpg" alt="">
+
+          <div class="layer">
+            <h3>Social media app</h3>
+            <p>The app connects you to the talented people in the world. dowload it in the play store.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        
+        </div>
+
+        <div class="work">
+          <img src="images/image-2.jpg" alt="">
+
+          <div class="layer">
+            <h3>Music app</h3>
+            <p>The app connects you to the talented people in the world. dowload it in the play store.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/image-3.jpg" alt="">
+
+          <div class="layer">
+            <h3>Online shoping app</h3>
+            <p>The app connects you to the talented people in the world. dowload it in the play store.</p>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+ <!-----------contact---------->
+ <div id="contact">
+
+  <div class="container">
+
+    <div class="row">
+
+
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>nguseyadisu@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+251967354894</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="images/My CV.pdf" download class="btn btn2">Download CV</a>
+      </div>
+
+
+      <div class="contact-right">
+       <form name="submit-to-google-sheet">
+         <input type="text" name="Name" placeholder="Your name" required>
+         <input type="text" name="Email" placeholder="Your email" required>
+         <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+         <button type="submit" class="btn btn2">Submit</button>
+       </form>
+       <span id="msg"></span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    <p>copyright &#169 Ngusey. Made with <i class="fa-solid fa-heart"></i> easy tutorials. </p>
+  </div>
+
+ </div>
+
+
+
+
+
+  <script>
+    const tabLikns=document.getElementsByClassName('tab-links');
+    const tabContents=document.getElementsByClassName('tab-contents');
+
+    function opentab(tabName){
+      for(tabLink of tabLikns){
+         tabLink.classList.remove('active-link');
+      }
+      for(tabContent of tabContents){
+         tabContent.classList.remove('active-tab');
+      }
+
+      event.currentTarget.classList.add('active-link');
+      document.getElementById(tabName).classList.add('active-tab');
+    }
+    
+
+    const sideBar=document.getElementById('sidemenu');
+    function openmenu(){
+      sideBar.style.right='0';
+    }
+    function closemenu(){
+      sideBar.style.right='-200px';
+    }
+  </script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwoUGtT1zd7t9o6KtRLLu0WQ_9fblJmDIPPWl6oDqcgtO9NfuObooX0nVFrJexgskHF/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = 'Message sent successfully';
+        setTimeout(function(){
+          msg.innerHTML = '';
+        }, 5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  
+</body>
+</html>
